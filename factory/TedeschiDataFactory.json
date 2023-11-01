@@ -1,0 +1,9 @@
+{
+	"name": "TedeschiDataFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5bad9ad3-9b74-4246-9a63-8d85c50b1e5a",
+		"tenantId": "07a36731-3f8f-472e-9860-240194990ca9"
+	}
+}
