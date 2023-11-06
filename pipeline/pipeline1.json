@@ -64,7 +64,7 @@
 			},
 			"apikey": {
 				"type": "string",
-				"defaultValue": "teste"
+				"defaultValue": "@linkedService(\\\"kvtedeschit3\\\").secret.alphavantagekey\\"
 			}
 		},
 		"variables": {
