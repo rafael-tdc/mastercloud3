@@ -67,7 +67,11 @@
 									"referenceName": "Json1",
 									"type": "DatasetReference",
 									"parameters": {
-										"camada": "teste"
+										"camada": "teste",
+										"ticket": {
+											"value": "@item()",
+											"type": "Expression"
+										}
 									}
 								}
 							]
