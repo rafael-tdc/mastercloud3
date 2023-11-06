@@ -20,7 +20,7 @@
 		"type": "RestResource",
 		"typeProperties": {
 			"relativeUrl": {
-				"value": "@concat(\n    'v2/aggs/ticker/',\n    dataset().ticket,\n    '/v2/aggs/ticker/',\n    dataset().ticket\n)",
+				"value": "@concat(\n    'v2/aggs/ticker/',\n    dataset().ticket,\n    '/range/1/day/2023-01-09/2023-01-09?apiKey=',\n    dataset().ticket\n)",
 				"type": "Expression"
 			}
 		},
