@@ -38,7 +38,17 @@
 				"inputs": [
 					{
 						"referenceName": "RestResource1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"apikey": {
+								"value": "@pipeline().parameters.apikey",
+								"type": "Expression"
+							},
+							"ticket": {
+								"value": "@variables('ticket')",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
@@ -73,7 +83,7 @@
 		"variables": {
 			"ticket": {
 				"type": "String",
-				"defaultValue": "abcd"
+				"defaultValue": "AAPL"
 			}
 		},
 		"folder": {
