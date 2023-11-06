@@ -5,6 +5,11 @@
 			"referenceName": "AzureBlobStorage1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"camada": {
+				"type": "string"
+			}
+		},
 		"folder": {
 			"name": "Prática 02"
 		},
@@ -13,6 +18,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"folderPath": {
+					"value": "@concat(dataset().camada)",
+					"type": "Expression"
+				},
 				"container": "container01"
 			}
 		},
