@@ -77,7 +77,7 @@
 			},
 			"apikey": {
 				"type": "string",
-				"defaultValue": "@linkedService(\\\"kvtedeschit3\\\").secret.alphavantagekey\\"
+				"defaultValue": "@linkedService(\\\"kvtedeschit3\\\").secret.polygonkey\\"
 			}
 		},
 		"variables": {
