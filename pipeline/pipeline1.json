@@ -52,19 +52,25 @@
 		"parameters": {
 			"camada_01": {
 				"type": "string",
-				"defaultValue": "abc123"
+				"defaultValue": "bruto"
 			},
 			"camada_02": {
 				"type": "string",
-				"defaultValue": "def456"
+				"defaultValue": "refinado"
 			},
 			"camada_03": {
 				"type": "string",
-				"defaultValue": "ghi789"
+				"defaultValue": "finalizado"
 			},
 			"apikey": {
 				"type": "string",
 				"defaultValue": "teste"
+			}
+		},
+		"variables": {
+			"ticket": {
+				"type": "String",
+				"defaultValue": "abcd"
 			}
 		},
 		"folder": {
