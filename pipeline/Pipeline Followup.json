@@ -1,0 +1,33 @@
+{
+	"name": "Pipeline Followup",
+	"properties": {
+		"activities": [
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@variables('tickets')",
+						"type": "Expression"
+					},
+					"isSequential": false
+				}
+			}
+		],
+		"variables": {
+			"tickets": {
+				"type": "Array",
+				"defaultValue": [
+					"AAPL",
+					"MSFT"
+				]
+			}
+		},
+		"folder": {
+			"name": "Prática 02"
+		},
+		"annotations": []
+	}
+}
