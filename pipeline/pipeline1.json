@@ -44,7 +44,10 @@
 				"outputs": [
 					{
 						"referenceName": "Json1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"camada": "1a"
+						}
 					}
 				]
 			}

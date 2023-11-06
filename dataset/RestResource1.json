@@ -5,13 +5,24 @@
 			"referenceName": "RestService1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"apikey": {
+				"type": "string"
+			},
+			"ticket": {
+				"type": "string"
+			}
+		},
 		"folder": {
 			"name": "Prática 02"
 		},
 		"annotations": [],
 		"type": "RestResource",
 		"typeProperties": {
-			"relativeUrl": ""
+			"relativeUrl": {
+				"value": "@concat(\n    'v2/aggs/ticker/',\n    dataset().ticket,\n    'v2/aggs/ticker/',\n    dataset().ticket\n)",
+				"type": "Expression"
+			}
 		},
 		"schema": []
 	}
