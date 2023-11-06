@@ -91,7 +91,7 @@
 			},
 			"apikey": {
 				"type": "string",
-				"defaultValue": "@linkedService(\\\"kvtedeschit3\\\").secret.polygonkey\\"
+				"defaultValue": "Iz_SJ4hBvFK8XNp4GgKcQmVv0yZFN7uG"
 			}
 		},
 		"variables": {
