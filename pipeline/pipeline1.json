@@ -56,7 +56,7 @@
 											"type": "Expression"
 										},
 										"ticket": {
-											"value": "@variables('ticket')",
+											"value": "@item()",
 											"type": "Expression"
 										}
 									}
